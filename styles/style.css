@@ -5,25 +5,419 @@
   font-style: normal;
 }
 
-/* header */
+/* header as banner background image */
 .header {
   margin-top: 100px;
   background-image: url("../assets/Hero-bg.png");
-  height: 650px;
+  /* height: 750px; */
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-repeat: no; */
 }
 
 .bnr-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  height: 45vh;
+}
+
+/* banner heading properties */
+.bnr-heading {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.bnr-inside,
+.bnr-txt {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.bnr-txt {
+  font-size: 16px;
+  font-weight:400;
+  text-align: center;
+  color: #0D1321;
+  opacity: 70%;
 }
 
 .bnr-btn {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: black;
+  color: #ffffff;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
+/* .bnr-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: semi-bold;
+  font-size: 20px;
+  
+} */
+
+/* middle part(mid-container) */
+.mid-container{
+  margin: 50px 50px;
+  padding: 50px;
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+
+/* middle header */
+.mid-header {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.mid-txt {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  color: #0D1321;
+  opacity: 70%;
+}
+
+
+/* middle part section wise */
+/* middle part section01 */
+.mid-section01{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+.section01-container{
+  max-width: 500px;
+}
+
+.mid-section01 h2{
+  font-weight: bold;
+  font-size: 24px;
+  color: #0D1321;
+}
+
+.mid-section01 p {
+  font-size: 16px;
+  font-weight: 350;
+  color: #0D1321;
+}
+
+.mid-section01 button{
+  display: block;
+  padding: 10px; 
+  font-weight:600;
+  font-size: 20px;
+  background-color: white;
+  color: #0D1321;
+}
+
+/* middle part section 02 */
+.mid-section02{
+  display: flex;
+  margin-top: 20px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+.section02-container{
+  max-width: 500px;
+}
+.mid-section02 h2{
+  font-weight: bold;
+  color: #0D1321;
+}
+
+.mid-section02 p {
+  font-size: 16px;
+  font-weight: 350;
+  color: #0D1321;
+}
+
+.mid-section02 button{
+  display: block;
+  padding: 10px; 
+  font-weight:600;
+  font-size: 20px;
+  background-color: white;
+  color: #0D1321;
+}
+
+/* middle part section 03 */
+.mid-section03{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+.section03-container{
+  max-width: 500px;
+}
+
+.mid-section03 h2{
+  font-weight: bold;
+  color: #0D1321;
+}
+
+.mid-section03 p {
+  font-size: 16px;
+  font-weight: 350;
+  color: #0D1321;
+}
+
+.mid-section03 button{
+  display: block;
+  padding: 10px; 
+  font-weight:600;
+  font-size: 20px;
+  background-color: white;
+  color: #0D1321;
+}
+
+.section{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section h2{
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.section p{
+  font-size: 16px;
+  font-weight: 350;
+  text-align: center;
+  color: #0D1321;
+}
+
+/* Youtube link */
+.video-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  height: 700px;
+  border: solid grey;
+  border-radius: 10px;
+}
+
+.video-link iframe{
+  width : 1500px;
+  height : 650px;
+  border-radius: 10px;
+}
+
+.target{
+  padding: 30px 30px;
+}
+
+.target h2{
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.target p{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #0D1321;
+  opacity: 70%;
+}
+
+.target-container{
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.target-container h2{
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.target-container p{
+  font-size: 16px;
+  font-weight: 350;
+  text-align: left;
+  color: #0D1321;
+}
+
+.target-html{
+  margin-right: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color:beige;
+}
+.target-css{
+  margin-right: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color:aliceblue ;
+}
+.target-js{
+  margin-right: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color:azure;
+}
+
+.target-container a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+/* My Next Target */
+.nxt-target{
+  margin: 80px 70px 40px;
+}
+
+.nxt-target h2{
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.target-txt{
+  font-size: 16px;
+  font-weight: 350;
+  text-align: center;
+  color: #0D1321;
+}
+
+.nxt-container{
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nxt-container h3{
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.nxt-container p{
+  font-size: 16px;
+  font-weight: 350;
+  color: #0D1321;
+}
+
+.reactjs{
+  display: flex;
+  padding: 20px;
+  border: 1px solid rgba(70, 70, 99, 0.982);
+  border-radius: 10px;
+}
+.reactjs-img{
+  margin-top: 30px;
+}
+.reactjs-txt{
+  margin-left: 20px;
+}
+
+.nodejs{
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid rgba(70, 70, 99, 0.982);
+  border-radius: 10px;
+}
+.nodejs-img{
+  margin-top: 40px;
+}
+.nodejs-txt{
+  margin-left: 20px;
+}
+
+.mongodb{
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid rgba(70, 70, 99, 0.982);
+  border-radius: 10px;
+}
+.mongodb-img{
+  margin-top: 20px;
+}
+.mongodb-txt{
+  margin-left: 20px;
+}
+
+.nxt-container a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #0D1321;
+}
+
+/* support section */
+.support{
+  background-image: url("../assets/handshake.jpg");
+  background-size: cover;
+  
+  height: 800px;
+}
+
+.support h2{
+  font-weight: bolder;
+  color: beige;
+  text-align: center;
+}
+
+.support p{
+  font-weight: 200;
+  color: beige;
+  text-align: center;
+}
+
+.support-input{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* support submit box */
+.supp-box{
+  margin-right: 10px;
+  padding: 15px;
+  padding-right: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  color:cadetblue ;
+}
+/* support submit button */
+.supp-btn{
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  color:cadetblue ;
+}
+
+/* .footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 /* .bnr-btn button {
   background-color: black;
   font: white;
@@ -43,15 +437,3 @@
 nav ul {
   display: flex;
 } */
-
-/* banner heading properties */
-.bnr-heading {
-  text-align: center;
-  /* font-size: 48px;
-  font-weight: extra-bold; */
-}
-
-/* banner text */
-.bnr-txt {
-  text-align: center;
-}
