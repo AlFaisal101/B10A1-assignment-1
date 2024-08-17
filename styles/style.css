@@ -22,7 +22,7 @@
   height: 45vh;
 }
 
-/* banner heading properties */
+/* banner properties */
 .bnr-heading {
   text-align: center;
   font-size: 48px;
@@ -37,7 +37,7 @@
 
 .bnr-txt {
   font-size: 16px;
-  font-weight:400;
+  font-weight: 400;
   text-align: center;
   color: #0D1321;
   opacity: 70%;
@@ -55,15 +55,6 @@
   border-radius: 10px;
 }
 
-/* .bnr-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: semi-bold;
-  font-size: 20px;
-  
-} */
-
 /* middle part(mid-container) */
 .mid-container{
   margin: 50px 50px;
@@ -71,7 +62,6 @@
   background: whitesmoke;
   border-radius: 10px;
 }
-
 
 /* middle header */
 .mid-header {
@@ -108,12 +98,16 @@
   font-weight: bold;
   font-size: 24px;
   color: #0D1321;
+  opacity: 70%;
+  /* fill: ;
+  stroke: ; */
 }
 
 .mid-section01 p {
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 400;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .mid-section01 button{
@@ -128,6 +122,7 @@
 /* middle part section 02 */
 .mid-section02{
   display: flex;
+  /* justify-content: space-between; */
   margin-top: 20px;
   padding: 30px;
   background: white;
@@ -138,13 +133,16 @@
 }
 .mid-section02 h2{
   font-weight: bold;
+  font-size: 24px;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .mid-section02 p {
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 400;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .mid-section02 button{
@@ -172,13 +170,16 @@
 
 .mid-section03 h2{
   font-weight: bold;
+  font-size: 24px;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .mid-section03 p {
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 400;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .mid-section03 button{
