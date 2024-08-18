@@ -95,8 +95,8 @@
 }
 
 .mid-section01 h2{
-  font-weight: bold;
   font-size: 24px;
+  font-weight: bold;
   color: #0D1321;
   opacity: 70%;
   /* fill: ;
@@ -113,10 +113,11 @@
 .mid-section01 button{
   display: block;
   padding: 10px; 
-  font-weight:600;
   font-size: 20px;
+  font-weight:600;
   background-color: white;
   color: #0D1321;
+  opacity: 70%;
 }
 
 /* middle part section 02 */
@@ -148,10 +149,11 @@
 .mid-section02 button{
   display: block;
   padding: 10px; 
-  font-weight:600;
   font-size: 20px;
+  font-weight:600;
   background-color: white;
   color: #0D1321;
+  opacity: 70%;
 }
 
 /* middle part section 03 */
@@ -189,6 +191,7 @@
   font-size: 20px;
   background-color: white;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .section{
@@ -198,15 +201,16 @@
 
 .section h2{
   font-size: 32px;
-  font-weight: bolder;
+  font-weight: 800;
   text-align: center;
 }
 
 .section p{
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 400;
   text-align: center;
   color: #0D1321;
+  opacity: 70%;
 }
 
 /* Youtube link */
@@ -232,7 +236,7 @@
 
 .target h2{
   font-size: 32px;
-  font-weight: bolder;
+  font-weight: 800;
   text-align: center;
 }
 
@@ -252,15 +256,16 @@
 
 .target-container h2{
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 800;
   text-align: left;
 }
 
 .target-container p{
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 400;
   text-align: left;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .target-html{
@@ -295,15 +300,16 @@
 
 .nxt-target h2{
   font-size: 32px;
-  font-weight: bolder;
+  font-weight: 800;
   text-align: center;
 }
 
 .target-txt{
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 400;
   text-align: center;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .nxt-container{
@@ -314,13 +320,14 @@
 
 .nxt-container h3{
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 .nxt-container p{
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 400;
   color: #0D1321;
+  opacity: 70%;
 }
 
 .reactjs{
@@ -374,19 +381,26 @@
 .support{
   background-image: url("../assets/handshake.jpg");
   background-size: cover;
-  
   height: 800px;
+  border-radius: 10px;
+}
+
+.support-container{
+  margin-top: 50px;
+  padding-top: 80px;
 }
 
 .support h2{
-  font-weight: bolder;
-  color: beige;
+  font-size: 32px;
+  font-weight: bold;
+  color: #FFFFFF;
   text-align: center;
 }
 
 .support p{
-  font-weight: 200;
-  color: beige;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
   text-align: center;
 }
 
@@ -400,17 +414,25 @@
 .supp-box{
   margin-right: 10px;
   padding: 15px;
-  padding-right: 50px;
+  padding-right: 80px;
   border-radius: 5px;
+  border: none;
+  background-color: #FFFFFF;
   font-size: 16px;
-  color:cadetblue ;
+  font-weight: 400;
+  color:#0D1321 ;
+
 }
+
 /* support submit button */
 .supp-btn{
-  padding: 15px;
+  padding: 15px 20px 15px 20px;
+  font-weight: 600;
   border-radius: 5px;
+  border: none;
   font-size: 16px;
-  color:cadetblue ;
+  color:#0D1321;
+  background-color: #FFFFFF;
 }
 
 /* .footer{
