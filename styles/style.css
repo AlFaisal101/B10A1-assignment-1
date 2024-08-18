@@ -381,11 +381,11 @@
 .support{
   display: flex;
   justify-content: center;
+  margin-top: 50px;
   /* align-items: center;  */
 }
 
 .support-container{
-  
   background-image: url("../assets/handshake.jpg");
   background-size: cover;
   height: 300px;
@@ -394,8 +394,7 @@
 }
 
 .support-container{
-  margin-top: 50px;
-  padding-top: 80px;
+  padding-top: 80px; */
 }
 
 .support h2{
