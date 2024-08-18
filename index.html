@@ -41,7 +41,7 @@
         </div>
 
         <!-- banner button -->
-        <button class="bnr-btn azeret-mono-normal">Contact with me</button>
+        <button type="button" onclick="supportSection()" class="bnr-btn azeret-mono-normal" >Contact with me</button>
       </div>
     </header>
     <main>
@@ -164,18 +164,22 @@
           </div>
         </div>
        
-
-       <div class="support">
-        <div class="support-container">
-          <h2>I need support</h2>
-          <p>Feel free to share your problem anytime. I am here to lookup on it and find a better solution!</p>
-          <div class="support-input">
-          <input class="supp-box" type="text" name="" id=""  value="Suggest me any feedback for me">
-           <button type="submit" class="supp-btn">Submit</button>
-          </div>
-        </div>
+<!-- support section -->
+ <div id="support-section"> <!-- for js id elements acces -->
+  <div class="support">
+    <div class="support-container">
+       <h2>I need support</h2>
+       <p>Feel free to share your problem anytime. I am here to lookup on it and find a better solution!</p>
+       <div class="support-input">
+       <input class="supp-box azeret-mono-normal" type="text" name="" id=""  value="Suggest me any feedback for me">
+        <button type="submit" class="supp-btn azeret-mono-normal">Submit</button>
        </div>
+     </div>
+    </div>
+ </div>
       
+      
+    <!-- footer section -->
     <footer class="footer">
       <div class="footer-container">
         <h3>An open commitment by Awlad Hossain</h3>
@@ -186,8 +190,17 @@
         <img src="./assets/linkedin-icon 1.png" alt="">
         </div>
       </div>
-      
-      
     </footer>
+
+    <!-- js for button click to support section -->
+    <script>
+      function supportSection() {
+              document.getElementById("support-section").scrollIntoView({ behavior: "smooth" });
+          }
+  
+    </script>
   </body>
+
+  
+
 </html>

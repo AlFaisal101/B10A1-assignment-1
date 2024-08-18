@@ -379,10 +379,18 @@
 
 /* support section */
 .support{
+  display: flex;
+  justify-content: center;
+  /* align-items: center;  */
+}
+
+.support-container{
+  
   background-image: url("../assets/handshake.jpg");
   background-size: cover;
-  height: 800px;
-  border-radius: 10px;
+  height: 300px;
+  width: 1500px;
+  border-radius: 15px;
 }
 
 .support-container{
@@ -437,7 +445,7 @@
 
 .footer{
   margin-top: 50px;
-  padding: 15px 80px 15px 80px;
+  padding: 15px 100px 15px 100px;
   /* color: #d2d9e8; */
   background-color: #edeff3;
   /*opacity: 3%; */
@@ -445,6 +453,7 @@
 
 .footer-container{
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
