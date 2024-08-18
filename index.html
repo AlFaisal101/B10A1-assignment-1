@@ -14,14 +14,13 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body class="azeret-mono-normal">
+
     <!-- banner -->
     <header class="header">
-
       <!-- <nav>
         <h2>Awlad.H</h2>
         <button>Download resume</button>
       </nav> -->
-
       <div class="banner">
         <!-- banner image -->
         <div class="bnr-img">
@@ -41,9 +40,10 @@
         </div>
 
         <!-- banner button -->
-        <button type="button" onclick="supportSection()" class="bnr-btn azeret-mono-normal">Get in touch</button>
+        <button type="button" onclick="footerSection()" class="bnr-btn azeret-mono-normal">Get in touch</button>
       </div>
     </header>
+
     <main>
       <!-- middle part container  -->
       <div class="mid-container">
@@ -67,7 +67,6 @@
             <p>Web technologies are based on modern lenguages. To become a developer, knowing about those languages is important.</p>
             <button class="azeret-mono-normal">Learn More</button>
           </div>
-          
         </div>
 
         <!-- middle part container 3 -->
@@ -118,7 +117,6 @@
           </div>
         </div>
       
-
       <!-- My Next Target -->
        <div class="nxt-target">
         <h2>I Will Write Next On</h2>
@@ -127,7 +125,6 @@
       </div>
 
         <div class="nxt-container">
-
           <div class="reactjs">
             <div class="reactjs-img">
               <img src="./assets/react.png" alt="">
@@ -165,7 +162,6 @@
         </div>
        
 <!-- support section -->
- <!-- for js id elements acces function-->
   <div class="support">
     <div class="support-container">
        <h2>Would you like to support?</h2>
@@ -176,25 +172,24 @@
        </div>
      </div>
   </div>
-    
+
     <!-- footer section -->
-    <footer class="footer">
+    <footer id="to-footer" class="footer"> <!-- for js id elements acces function-->
       <div class="footer-container">
         <h3>A Commitment You Can Trust – Al Faisal.</h3>
-
+        <!-- icons -->
         <div class="links">
         <a href="https://www.facebook.com/" target="_blank"><img class="img-margin" src="./assets/facebook.png" alt=""></a>
         <a href="https://github.com/" target="_blank"><img class="img-margin" src="./assets/github.png" alt=""></a>
         <a href="https://linkedin.com/" target="_blank"><img src="./assets/linkedin-icon 1.png" alt=""></a>
-        
         </div>
       </div>
     </footer>
 
-    <!-- js for button click to support section -->
+    <!-- js for button click to footer section -->
     <script>
-      function supportSection() {
-              document.getElementById("support-section").scrollIntoView({ behavior: "smooth" });
+      function footerSection() {
+              document.getElementById("to-footer").scrollIntoView({ behavior: "smooth" });
           }
     </script>
   </body>
